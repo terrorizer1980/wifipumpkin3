@@ -9,7 +9,7 @@ PyQt5>=5.14
 PyQt5-sip
 pyOpenSSL==19.0.0
 Responder3>=0.0.1
-dnslib==0.9.14
+dnslib==0.9.19
 loguru>=0.4.0
 scapy>=2.4.4
 isc_dhcp_leases>=0.9.1
@@ -21,3 +21,4 @@ asn1crypto>=1.0.0
 #jwt>=1.0.0
 #Flask-RESTful==0.3.7
 #Werkzeug==1.0.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
