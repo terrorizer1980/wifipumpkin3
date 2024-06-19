@@ -21,3 +21,4 @@ asn1crypto>=1.0.0
 #jwt>=1.0.0
 #Flask-RESTful==0.3.7
 #Werkzeug==1.0.1
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
