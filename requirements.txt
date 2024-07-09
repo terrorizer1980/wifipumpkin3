@@ -15,9 +15,14 @@ scapy>=2.4.4
 isc_dhcp_leases>=0.9.1
 dnspython==1.16.0
 Flask==1.1.1
-requests>=2.18.4
+requests>=2.31.0
 beautifulsoup4>=4.9.1
 asn1crypto>=1.0.0
 #jwt>=1.0.0
 #Flask-RESTful==0.3.7
 #Werkzeug==1.0.1
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
