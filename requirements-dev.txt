@@ -24,3 +24,4 @@ coverage==5.1
 # Flask-RESTful==0.3.7
 # Werkzeug==1.0.1
 
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
